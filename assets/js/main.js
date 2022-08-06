@@ -28,3 +28,11 @@ function linkAction(){
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+// Typing Script JS
+var typing=new Typed(".typing", {
+    strings: ["", "Frontend developer", "Backend developer"],
+    typeSpeed: 100,
+    backSpeed: 40,
+    loop: true,
+});
